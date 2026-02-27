@@ -12,8 +12,202 @@ Today I started my Python journey.
 - Operator precedence
 - Associativity
 
+### 🧠 What I Built:
+- Area of Rectangle Calculator
+- Arithmetic Operations Demonstration
+
+### 💡 Key Learnings:
+- Python follows BODMAS rule
+- Exponent operator (**) is right associative
+- Input values must be typecasted
+
+---
 
 🔥 Goal: Become strong in Python & AI Engineering  
 📌 Updating GitHub daily to track consistency.
 
 
+
+
+
+x = 101
+id(x)
+x = 205
+id(x)
+a = 29.45
+b = -3.56
+c = -24.0E3  
+d = -4.1E-2  
+
+print(a,b,c,d)
+a = 15
+b = 5
+x = True
+y = False
+print(x, y)
+int(x)
+int(y)
+# condition statement
+c = 4
+d = 2
+c > d
+# complex Number
+c = 10 + 5j
+print (type(c))
+c
+c = complex(10)
+c
+# Literals 
+a = 321
+b = 12_32_43_34
+print (a , b)
+c = 342_ # not for use 
+
+
+d = _321
+ # In [1]
+a = 9.75
+b = 15.0
+print(a, b)
+
+# In [2]
+type(b)
+
+# In [3]
+c = 12E2
+d = 12.5e-2
+print(c, d)
+
+# In [4]
+e = 12_5.6_7
+print(e)
+
+
+# In [5]  ❌ This will give error
+f = 5._9   # SyntaxError: invalid decimal litera
+name = 'Alexa'
+name1 = "Alexa"
+name2 = '"Alexa"'
+
+print(name, name1, name2)
+s1 = bin(15)
+s2 = oct(15)
+s3 = hex(15)
+
+print(s1)
+print(s2)
+print(s3)
+s1 = bin(True)
+s1
+# Arithmetic Operation
+# Assign values
+a = 14
+b = 4
+
+# Addition
+print("Addition:", a + b)
+
+# Subtraction
+print("Subtraction:", a - b)
+
+# Multiplication
+print("Multiplication:", a * b)
+
+# Division (float result)
+print("Division:", a / b)
+
+# Floor Division (integer division)
+print("Floor Division:", a // b)
+
+# Modulus (remainder)
+print("Modulus:", a % b)
+
+# Exponentiation (power)
+print("Exponentiation:", a ** b)
+# Expressions
+a = 10
+b = 3
+
+print(a + b)   # Addition
+print(a - b)   # Subtraction
+print(a * b)   # Multiplication
+print(a / b)   # Division
+print(a // b)  # Floor Division
+print(a % b)   # Modulus
+print(a ** b)  # Power
+a = 10
+b = 5
+
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+print(a == b)
+print(a != b)
+x = True
+y = False
+
+print(x and y)
+print(x or y)
+print(not x)
+a = 5
+a += 3   # a = a + 3
+a -= 2   # a = a - 2
+a *= 4
+a /= 2
+a //= 2
+a %= 3
+a **= 2
+
+print(a)
+a = 5   # 101
+b = 3   # 011
+
+print(a & b)   # AND
+print(a | b)   # OR
+print(a ^ b)   # XOR
+print(~a)      # NOT
+print(a << 1)  # Left shift
+print(a >> 1)  # Right shift
+list1 = [1, 2, 3, 4]
+
+print(2 in list1)
+print(5 not in list1)
+a = [1, 2]
+b = [1, 2]
+c = a
+
+print(a is c)
+print(a is b)
+print(a is not b)
+result = 10 + 2 * 3
+print(result)   # 16 (Multiplication first)
+
+result2 = (10 + 2) * 3
+print(result2)  # 36 (Parentheses first)
+# Associativity and Precedence Demonstration
+
+# Left to Right Associativity
+print("Left to Right Associativity:")
+
+print("20 - 5 - 3 =", 20 - 5 - 3)      # (20 - 5) - 3
+print("100 / 10 * 2 =", 100 / 10 * 2)  # (100 / 10) * 2
+print("10 + 2 * 3 =", 10 + 2 * 3)      # Multiplication first (precedence)
+
+print("\nRight to Left Associativity:")
+
+print("2 ** 3 ** 2 =", 2 ** 3 ** 2)    # 2 ** (3 ** 2)
+
+# Assignment (Right to Left)
+a = b = c = 10
+print("a =", a, "b =", b, "c =", c)
+
+# Logical Operators (Left to Right)
+print("\nLogical Operators:")
+print("True and False or True =", True and False or True)
+length = int(input("Enter Length: "))
+breadth = int(input("Enter Breadth: "))
+
+area = length * breadth
+
+print("Area:", area)
